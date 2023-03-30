@@ -14,11 +14,8 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
-            // "args": ["-i", "response.xml", "-o", "response.csv"],
-            // "args": ["-d", "/Volumes/Data"],
-            // "args": ["-f", "menubar.dmg"],
-            // "args": ["-h"],
-            "args": ["ls"],
+            // "args": ["ls"],
+            // "args": ["pwd"],
             // "env": {
             //     "CREDS": "",
             // }
