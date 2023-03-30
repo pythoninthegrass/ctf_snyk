@@ -17,3 +17,25 @@
 
 ## Further Reading
 [Snyk CTF-101](https://101.ctf-snyk.io/prerequisites)
+
+[Free developer security education lessons | Snyk Learn](https://learn.snyk.io/lessons/)
+
+<p>
+<details>
+<summary>Hints</summary>
+
+[What is prototype pollution? | Tutorial & examples | Snyk Learn](https://learn.snyk.io/lessons/prototype-pollution/javascript/)
+
+[Exploiting Python pickles - David Hamann](https://davidhamann.de/2020/04/05/exploiting-python-pickle/)
+
+</details>
+</p>
+
+<p>
+<details>
+<summary>VSCode Theme Spoiler</summary>
+
+[SynthWave '84 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
+
+</details>
+</p>
