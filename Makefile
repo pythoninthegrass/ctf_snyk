@@ -130,6 +130,18 @@ just: ## install justfile
 		yes | sudo pacman -S just; \
 	fi
 
+# TODO: error handling (OS, binary, etc.)
+snyk: ## install snyk
+	@echo "Installing Snyk..."
+	if [ "${UNAME}" == "Darwin" ]; then \
+		brew tap snyk/tap; \
+		brew install snyk; \
+	else \
+		curl https://static.snyk.io/cli/latest/snyk-macos -o snyk; \
+		chmod +x ./snyk; \
+		mv ./snyk /usr/local/bin/; \
+	fi
+
 install: sanity-check xcode homebrew git python pip nodejs just  ## install all dependencies
 
 help: ## Show this help.
