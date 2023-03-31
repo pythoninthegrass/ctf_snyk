@@ -15,7 +15,6 @@
             "console": "integratedTerminal",
             "cwd": "${fileDirname}",
             // "args": ["ls"],
-            // "args": ["pwd"],
             // "env": {
             //     "CREDS": "",
             // }
