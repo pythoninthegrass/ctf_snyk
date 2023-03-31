@@ -15,6 +15,10 @@
 
 [Sauerkraut](http://sauerkraut.c.ctf-snyk.io/)
 
+## TODO
+* [Issues?](https://github.com/pythoninthegrass/ctf_snyk/issues)
+* Dockerize repo. Maybe
+
 ## Further Reading
 [Snyk CTF-101](https://101.ctf-snyk.io/prerequisites)
 
