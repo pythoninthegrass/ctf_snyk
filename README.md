@@ -33,7 +33,11 @@
 
 <p>
 <details>
-<summary>VSCode Theme Spoiler</summary>
+<summary>Spoilers</summary>
+
+[SnykCon CTF - "Invisible Ink" Prototype Pollution - YouTube](https://www.youtube.com/watch?v=ycbRA_Ipq1U)
+
+[SnykCon CTF - Sauerkraut - Python Pickle Vulnerabilities - YouTube](https://www.youtube.com/watch?v=snVokteaKG8)
 
 [SynthWave '84 - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
 
