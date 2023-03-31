@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
-import pickle
 import base64
 import os
+import pickle
 
 """
 https://davidhamann.de/2020/04/05/exploiting-python-pickle/
+
+Solution: https://gist.github.com/pythoninthegrass/c93158660e493625e4f8cd78e099c876
 """
 
 class RCE:

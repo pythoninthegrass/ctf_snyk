@@ -2,6 +2,8 @@
 
 cat << 'DESCRIPTION' >/dev/null
 https://learn.snyk.io/lessons/prototype-pollution/javascript/
+
+Solution: https://gist.github.com/pythoninthegrass/31ae011bed2b52fc732af45698af7196
 DESCRIPTION
 
 # post w/curl
