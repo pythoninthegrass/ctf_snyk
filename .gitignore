@@ -1,5 +1,6 @@
 # ETC
 solution.*
+*.sqlite
 
 # Logs
 logs
