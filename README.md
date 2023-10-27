@@ -45,6 +45,10 @@
 
 [Exploiting Python pickles - David Hamann](https://davidhamann.de/2020/04/05/exploiting-python-pickle/)
 
+[Exploit Notes](https://exploit-notes.hdks.org/)
+
+[HackTricks](https://book.hacktricks.xyz/welcome/readme)
+
 </details>
 </p>
 
