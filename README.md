@@ -1,11 +1,24 @@
 # ctf_snyk
 
 ## Pre-requisites
+### Minimum Requirements
+* [nodejs](https://nodejs.org/en/download/)
+* [python3](https://www.python.org/downloads/)
+
+### Recommended Requirements
+* [docker](https://docs.docker.com/get-docker/)
+* [parrot os - docker](hhttps://parrotsec.org/docs/cloud/parrot-on-docker/)
+    ```bash
+    docker run --rm -it --network host -v $PWD/work:/work parrotsec/security
+    ```
+
+### 101
 > In order to solve the challenges, please complete the following requisites
 > * [Register](https://101.ctf-snyk.io/register) to access the challenges
-> * Install: [Node.js](https://nodejs.org/en/download/)
-> * Install: [python3](https://www.python.org/downloads/)
 > * Create a free [Snyk account](https://snyk.co/ctf101portal)
+
+### Fetch the Flag (Oct 27, 2023)
+* [CTF](https://snyk.ctf.games/)
 
 ## What is Snyk?
 > Snyk finds and automatically fixes vulnerabilities in your projects for free. You can use Snyk to detect vulnerabilities in CTF challenges, so you can uncover hidden flags faster. Check out the docs to learn how to run Snyk in your CLI.

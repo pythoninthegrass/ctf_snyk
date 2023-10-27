@@ -1,6 +1,7 @@
 # ETC
 scratch.*
 solution.*
+SOLUTION.*
 *.sqlite
 
 # Logs
