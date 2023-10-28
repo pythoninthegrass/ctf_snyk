@@ -3,6 +3,7 @@ scratch.*
 solution.*
 SOLUTION.*
 *.sqlite
+.dccache
 
 # Logs
 logs

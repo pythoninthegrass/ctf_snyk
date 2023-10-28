@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Checklist</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            color: #5b9aa0;
+        }
+        #data-list {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin: 20px;
+        }
+        #data-list li {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        
+        #data-list li::before {
+            content: "\1F3D5"; 
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        
+        h1 {
+            font-family: 'Georgia', serif;
+            color: #4c753e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Camping Checklist</h1>
+    <ul id="data-list">
+        <!-- Data will be dynamically inserted here -->
+    </ul>
+
+    <script>
+        
+        const apiUrl = '/api/items';
+
+        fetch(apiUrl)
+            .then(response => response.json())
+            .then(data => {
+                const dataList = document.getElementById('data-list');
+
+                data.items.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = item.name + " : " + item.price; 
+                    dataList.appendChild(listItem);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+    </script>
+</body>
+</html>
